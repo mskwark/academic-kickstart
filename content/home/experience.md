@@ -52,7 +52,7 @@ date_format = "January 2006"
 
 [[experience]]
   title = "Postdoctoral researcher"
-  company = "Aalto University""
+  company = "Aalto University"
   company_url = ""
   location = "Finland"
   date_start = "2013-07-01"
