@@ -22,7 +22,7 @@ email = "marcin@skwark.pl"
 interests = [
   "Protein structure prediction",
   "Statistical inference in biological systems",
-  "Machine learning from noisy data"
+  "Machine learning from noisy data",
   "Data Science"
 ]
 
