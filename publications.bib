@@ -1,0 +1,621 @@
+
+@ARTICLE{Waman2019-ki,
+  title     = "Mycobacterial genomics and structural bioinformatics:
+               opportunities and challenges in drug discovery",
+  author    = "Waman, Vaishali P and Vedithi, Sundeep Chaitanya and Thomas,
+               Sherine E and Bannerman, Bridget P and Munir, Asma and Skwark,
+               Marcin J and Malhotra, Sony and Blundell, Tom L",
+  abstract  = "Of the more than 190 distinct species of Mycobacterium genus,
+               many are economically and clinically important pathogens of
+               humans or animals. Among those mycobacteria that infect humans,
+               three species namely Mycobacterium tuberculosis (causative agent
+               ...",
+  journal   = "Emerg. Microbes Infect.",
+  publisher = "Taylor \& Francis",
+  volume    =  8,
+  number    =  1,
+  pages     = "109",
+  year      =  2019,
+  language  = "en"
+}
+
+@ARTICLE{Golkov2017-za,
+  title         = "{3D} Deep Learning for Biological Function Prediction from
+                   Physical Fields",
+  author        = "Golkov, Vladimir and Skwark, Marcin J and Mirchev, Atanas
+                   and Dikov, Georgi and Geanes, Alexander R and Mendenhall,
+                   Jeffrey and Meiler, Jens and Cremers, Daniel",
+  abstract      = "Predicting the biological function of molecules, be it
+                   proteins or drug-like compounds, from their atomic structure
+                   is an important and long-standing problem. Function is
+                   dictated by structure, since it is by spatial interactions
+                   that molecules interact with each other, both in terms of
+                   steric complementarity, as well as intermolecular forces.
+                   Thus, the electron density field and electrostatic potential
+                   field of a molecule contain the ``raw fingerprint'' of how
+                   this molecule can fit to binding partners. In this paper, we
+                   show that deep learning can predict biological function of
+                   molecules directly from their raw 3D approximated electron
+                   density and electrostatic potential fields. Protein function
+                   based on EC numbers is predicted from the approximated
+                   electron density field. In another experiment, the activity
+                   of small molecules is predicted with quality comparable to
+                   state-of-the-art descriptor-based methods. We propose
+                   several alternative computational models for the GPU with
+                   different memory and runtime requirements for different
+                   sizes of molecules and of databases. We also propose
+                   application-specific multi-channel data representations.
+                   With future improvements of training datasets and neural
+                   network settings in combination with complementary
+                   information sources (sequence, genomic context, expression
+                   level), deep learning can be expected to show its
+                   generalization power and revolutionize the field of
+                   molecular function prediction.",
+  month         =  apr,
+  year          =  2017,
+  archivePrefix = "arXiv",
+  primaryClass  = "q-bio.BM",
+  eprint        = "1704.04039"
+}
+
+@ARTICLE{Viklund2008-gs,
+  title    = "{{{S}{P}{O}{C}{T}{O}{P}{U}{S}}: a combined predictor of signal
+              peptides and membrane protein topology}",
+  author   = "Viklund, H{\aa}kan and Bernsel, Andreas and Skwark, Marcin and
+              Elofsson, Arne",
+  abstract = "SUMMARY: SPOCTOPUS is a method for combined prediction of signal
+              peptides and membrane protein topology, suitable for genome-scale
+              studies. Its objective is to minimize false predictions of
+              transmembrane regions as signal peptides and vice versa. We
+              provide a description of the SPOCTOPUS algorithm together with a
+              performance evaluation where SPOCTOPUS compares favorably with
+              state-of-the-art methods for signal peptide and topology
+              predictions. AVAILABILITY: SPOCTOPUS is available as a web server
+              and both the source code and benchmark data are available for
+              download at http://octopus.cbr.su.se/",
+  journal  = "Bioinformatics",
+  volume   =  24,
+  number   =  24,
+  pages    = "2928--2929",
+  month    =  dec,
+  year     =  2008,
+  language = "en"
+}
+
+@ARTICLE{Skwark2014-yd,
+  title     = "{Improved Contact Predictions Using the Recognition of Protein
+               Like Contact Patterns}",
+  author    = "Skwark, Marcin J and Raimondi, Daniele and Michel, Mirco and
+               Elofsson, Arne",
+  abstract  = "Author Summary Here, we introduce a novel protein contact
+               prediction method PconsC2 that, to the best of our knowledge,
+               outperforms earlier methods. PconsC2 is based on our earlier
+               method, PconsC, as it utilizes the same set of contact
+               predictions from plmDCA and PSICOV. However, in contrast to
+               PconsC, where each residue pair is analysed independently, the
+               initial predictions are analysed in context of neighbouring
+               residue pairs using a deep learning approach, inspired by
+               earlier work. We find that for each layer the deep learning
+               procedure improves the predictions. At the end, after five
+               layers of deep learning and inclusion of a few extra features
+               provides the best performance. An improvement can be seen for
+               all types of proteins, independent on length, number of
+               homologous sequences and structural class. However, the
+               improvement is largest for $\beta$-sheet containing proteins.
+               Most importantly the improvement brings for the first time
+               sufficiently accurate predictions to some protein families with
+               less than 1000 homologous sequences. PconsC2 outperforms as well
+               state of the art machine learning based predictors for protein
+               families larger than 100 effective sequences. PconsC2 is
+               licensed under the GNU General Public License v3 and freely
+               available from http://c2.pcons.net/.",
+  journal   = "PLoS Comput. Biol.",
+  publisher = "Public Library of Science",
+  volume    =  10,
+  number    =  11,
+  pages     = "e1003889",
+  month     =  nov,
+  year      =  2014,
+  language  = "en"
+}
+
+@ARTICLE{Michel2014-rp,
+  title    = "{PconsFold}: improved contact predictions improve protein models",
+  author   = "Michel, Mirco and Hayat, Sikander and Skwark, Marcin J and
+              Sander, Chris and Marks, Debora S and Elofsson, Arne",
+  abstract = "MOTIVATION: Recently it has been shown that the quality of
+              protein contact prediction from evolutionary information can be
+              improved significantly if direct and indirect information is
+              separated. Given sufficiently large protein families, the contact
+              predictions contain sufficient information to predict the
+              structure of many protein families. However, since the first
+              studies contact prediction methods have improved. Here, we ask
+              how much the final models are improved if improved contact
+              predictions are used. RESULTS: In a small benchmark of 15
+              proteins, we show that the TM-scores of top-ranked models are
+              improved by on average 33\% using PconsFold compared with the
+              original version of EVfold. In a larger benchmark, we find that
+              the quality is improved with 15-30\% when using PconsC in
+              comparison with earlier contact prediction methods. Further,
+              using Rosetta instead of CNS does not significantly improve
+              global model accuracy, but the chemistry of models generated with
+              Rosetta is improved. AVAILABILITY: PconsFold is a fully automated
+              pipeline for ab initio protein structure prediction based on
+              evolutionary information. PconsFold is based on PconsC contact
+              prediction and uses the Rosetta folding protocol. Due to its
+              modularity, the contact prediction tool can be easily exchanged.
+              The source code of PconsFold is available on GitHub at {\v
+              e}+https://www.github.com/ElofssonLab/pcons-fold+ under the MIT
+              license. PconsC is available from {\v e}+http://c.pcons.net/.+
+              SUPPLEMENTARY INFORMATION: Supplementary data are available at
+              Bioinformatics online.",
+  journal  = "Bioinformatics",
+  volume   = "in press",
+  number   =  17,
+  pages    = "i482--8",
+  month    =  sep,
+  year     =  2014,
+  language = "en"
+}
+
+@ARTICLE{Feinauer2014-pr,
+  title    = "{Improving Contact Prediction along Three Dimensions}",
+  author   = "Feinauer, Christoph and Skwark, Marcin J and Pagnani, Andrea and
+              Aurell, Erik",
+  abstract = "Correlation patterns in multiple sequence alignments of
+              homologous proteins can be exploited to infer information on the
+              three-dimensional structure of their members. The typical
+              pipeline to address this task, which we in this paper refer to as
+              the three dimensions of contact prediction, is to: (i) filter and
+              align the raw sequence data representing the evolutionarily
+              related proteins; (ii) choose a predictive model to describe a
+              sequence alignment; (iii) infer the model parameters and
+              interpret them in terms of structural properties, such as an
+              accurate contact map. We show here that all three dimensions are
+              important for overall prediction success. In particular, we show
+              that it is possible to improve significantly along the second
+              dimension by going beyond the pair-wise Potts models from
+              statistical physics, which have hitherto been the focus of the
+              field. These (simple) extensions are motivated by multiple
+              sequence alignments often containing long stretches of gaps
+              which, as a data feature, would be rather untypical for
+              independent samples drawn from a Potts model. Using a large test
+              set of proteins we show that the combined improvements along the
+              three dimensions are as large as any reported to date.",
+  journal  = "PLoS Comput. Biol.",
+  volume   =  10,
+  number   =  10,
+  pages    = "e1003847",
+  month    =  oct,
+  year     =  2014,
+  language = "en"
+}
+
+@ARTICLE{Larsson2009-er,
+  title    = "{{A}ssessment of global and local model quality in
+              {{C}{A}{S}{P}8} using {P}cons and {P}ro{Q}}",
+  author   = "Larsson, Per and Skwark, Marcin J and Wallner, Bj{\"o}rn and
+              Elofsson, Arne",
+  abstract = "Model Quality Assessment Programs (MQAPs) are programs developed
+              to rank protein models. These methods can be trained to predict
+              the overall global quality of a model or what local regions in a
+              model that are likely to be incorrect. In CASP8, we participated
+              with two predictors that predict both global and local quality
+              using either consensus information, Pcons, or purely structural
+              information, ProQ. Consistently with results in previous CASPs,
+              the best performance in CASP8 was obtained using the Pcons
+              method. Furthermore, the results show that the modification
+              introduced into Pcons for CASP8 improved the predictions against
+              GDT\_TS and now a correlation coefficient above 0.9 is achieved,
+              whereas the correlation for ProQ is about 0.7. The correlation is
+              better for the easier than for the harder targets, but it is not
+              below 0.5 for a single target and below 0.7 only for three
+              targets. The correlation coefficient for the best local quality
+              MQAP is 0.68 showing that there is still clear room for
+              improvement within this area. We also detect that Pcons still is
+              not always able to identify the best model. However, we show that
+              using a linear combination of Pcons and ProQ it is possible to
+              select models that are better than the models from the best
+              single server. In particular, the average quality over the hard
+              targets increases by about 6\% compared with using Pcons alone.",
+  journal  = "Proteins",
+  volume   = "77 Suppl 9",
+  pages    = "167--172",
+  year     =  2009,
+  language = "en"
+}
+
+@ARTICLE{Skwark2013-fr,
+  title    = "{{{P}cons{C}}: {C}ombination of direct information methods and
+              alignments improves contact prediction}",
+  author   = "Skwark, Marcin J and Abdel-Rehim, Abbi and Elofsson, Arne",
+  abstract = "SUMMARY: Recently, several new contact prediction methods have
+              been published. They use (i) large sets of multiple aligned
+              sequences and (ii) assume that correlations between columns in
+              these alignments can be the results of indirect interaction.
+              These methods are clearly superior to earlier methods when it
+              comes to predicting contacts in proteins. Here, we demonstrate
+              that combining predictions from two prediction methods, PSICOV
+              and plmDCA, and two alignment methods, HHblits and jackhmmer at
+              four different e-value cut-offs, provides a relative improvement
+              of 20\% in comparison with the best single method, exceeding 70\%
+              correct predictions for one contact prediction per residue.
+              AVAILABILITY: The source code for PconsC along with supplementary
+              data is freely available at http://c.pcons.net/ CONTACT:
+              arne@bioinfo.se SUPPLEMENTARY INFORMATION: Supplementary data are
+              available at Bioinformatics online.",
+  journal  = "Bioinformatics",
+  volume   =  29,
+  number   =  14,
+  pages    = "1815--1816",
+  month    =  jul,
+  year     =  2013,
+  language = "en"
+}
+
+@ARTICLE{Skwark2017-hx,
+  title     = "Interacting networks of resistance, virulence and core machinery
+               genes identified by genome-wide epistasis analysis",
+  author    = "Skwark, Marcin J and Croucher, Nicholas J and Puranen, Santeri
+               and Chewapreecha, Claire and Pesonen, Maiju and Xu, Ying Ying
+               and Turner, Paul and Harris, Simon R and Beres, Stephen B and
+               Musser, James M and Parkhill, Julian and Bentley, Stephen D and
+               Aurell, Erik and Corander, Jukka",
+  abstract  = "Recent advances in the scale and diversity of population genomic
+               datasets for bacteria now provide the potential for genome-wide
+               patterns of co-evolution to be studied at the resolution of
+               individual bases. Here we describe a new statistical method,
+               genomeDCA, which uses recent advances in computational
+               structural biology to identify the polymorphic loci under the
+               strongest co-evolutionary pressures. We apply genomeDCA to two
+               large population data sets representing the major human
+               pathogens Streptococcus pneumoniae (pneumococcus) and
+               Streptococcus pyogenes (group A Streptococcus). For pneumococcus
+               we identified 5,199 putative epistatic interactions between
+               1,936 sites. Over three-quarters of the links were between sites
+               within the pbp2x, pbp1a and pbp2b genes, the sequences of which
+               are critical in determining non-susceptibility to beta-lactam
+               antibiotics. A network-based analysis found these genes were
+               also coupled to that encoding dihydrofolate reductase, changes
+               to which underlie trimethoprim resistance. Distinct from these
+               antibiotic resistance genes, a large network component of 384
+               protein coding sequences encompassed many genes critical in
+               basic cellular functions, while another distinct component
+               included genes associated with virulence. The group A
+               Streptococcus (GAS) data set population represents a clonal
+               population with relatively little genetic variation and a high
+               level of linkage disequilibrium across the genome. Despite this,
+               we were able to pinpoint two RNA pseudouridine synthases, which
+               were each strongly linked to a separate set of loci across the
+               chromosome, representing biologically plausible targets of
+               co-selection. The population genomic analysis method applied
+               here identifies statistically significantly co-evolving locus
+               pairs, potentially arising from fitness selection
+               interdependence reflecting underlying protein-protein
+               interactions, or genes whose product activities contribute to
+               the same phenotype. This discovery approach greatly enhances the
+               future potential of epistasis analysis for systems biology, and
+               can complement genome-wide association studies as a means of
+               formulating hypotheses for targeted experimental work.",
+  journal   = "PLoS Genet.",
+  publisher = "Public Library of Science",
+  volume    =  13,
+  number    =  2,
+  pages     = "e1006508",
+  month     =  feb,
+  year      =  2017,
+  language  = "en"
+}
+
+@ARTICLE{Skwark2013-fm,
+  title    = "{{PconsD}: ultra rapid, accurate model quality assessment for
+              protein structure prediction}",
+  author   = "Skwark, Marcin J and Elofsson, Arne",
+  abstract = "SUMMARY: Clustering methods are often needed for accurately
+              assessing the quality of modeled protein structures. Recent blind
+              evaluation of quality assessment methods in CASP10 showed that
+              there is little difference between many different methods as far
+              as ranking models and selecting best model are concerned. When
+              comparing many models, the computational cost of the model
+              comparison can become significant. Here, we present PconsD, a
+              fast, stream-computing method for distance-driven model quality
+              assessment that runs on consumer hardware. PconsD is at least one
+              order of magnitude faster than other methods of comparable
+              accuracy. AVAILABILITY: The source code for PconsD is freely
+              available at http://d.pcons.net/. Supplementary benchmarking data
+              are also available there. CONTACT: arne@bioinfo.se SUPPLEMENTARY
+              INFORMATION: Supplementary data are available at Bioinformatics
+              online.",
+  journal  = "Bioinformatics",
+  volume   =  29,
+  number   =  14,
+  pages    = "1817--1818",
+  month    =  jul,
+  year     =  2013,
+  keywords = "Cluster Analysis,Computational Biology,Models- Molecular,Protein
+              Conformation,Proteins,Software",
+  language = "eng"
+}
+
+@ARTICLE{Waman2019-qn,
+  title     = "Mycobacterial genomics and structural bioinformatics:
+               opportunities and challenges in drug discovery",
+  author    = "Waman, Vaishali P and Vedithi, Sundeep Chaitanya and Thomas,
+               Sherine E and Bannerman, Bridget P and Munir, Asma and Skwark,
+               Marcin J and Malhotra, Sony and Blundell, Tom L",
+  abstract  = "ABSTRACTOf the more than 190 distinct species of Mycobacterium
+               genus, many are economically and clinically important pathogens
+               of humans or animals. Among those mycobacteria that infect
+               humans, three species namely Mycobacterium tuberculosis
+               (causative agent of tuberculosis), Mycobacterium leprae
+               (causative agent of leprosy) and Mycobacterium abscessus
+               (causative agent of chronic pulmonary infections) pose concern
+               to global public health. Although antibiotics have been
+               successfully developed to combat each of these, the emergence of
+               drug-resistant strains is an increasing challenge for treatment
+               and drug discovery. Here we describe the impact of the rapid
+               expansion of genome sequencing and genome/pathway annotations
+               that have greatly improved the progress of structure-guided drug
+               discovery. We focus on the applications of comparative genomics,
+               metabolomics, evolutionary bioinformatics and structural
+               proteomics to identify potential drug targets. The opportunities
+               and challenges for the design of drugs for M. tuberculosis, M.
+               leprae and M. abscessus to combat resistance are discussed.",
+  journal   = "Emerg. Microbes Infect.",
+  publisher = "Taylor \& Francis",
+  volume    =  8,
+  number    =  1,
+  pages     = "109--118",
+  month     =  jan,
+  year      =  2019
+}
+
+@ARTICLE{Ge2014-ko,
+  title    = "Membrane remodeling capacity of a vesicle-inducing
+              glycosyltransferase",
+  author   = "Ge, Changrong and G{\'o}mez-Llobregat, Jordi and Skwark, Marcin J
+              and Ruysschaert, Jean-Marie and Wieslander, Ake and Lind{\'e}n,
+              Martin",
+  abstract = "Intracellular vesicles are abundant in eukaryotic cells but
+              absent in the Gram-negative bacterium Escherichia coli. However,
+              strong overexpression of a monotopic glycolipid-synthesizing
+              enzyme, monoglucosyldiacylglycerol synthase from Acholeplasma
+              laidlawii (alMGS), leads to massive formation of vesicles in the
+              cytoplasm of E. coli. More importantly, alMGS provides a model
+              system for the regulation of membrane properties by
+              membrane-bound enzymes, which is critical for maintaining
+              cellular integrity. Both phenomena depend on how alMGS binds to
+              cell membranes, which is not well understood. Here, we carry out
+              a comprehensive investigation of the membrane binding of alMGS by
+              combining bioinformatics methods with extensive biochemical
+              studies, structural modeling and molecular dynamics simulations.
+              We find that alMGS binds to the membrane in a fairly upright
+              manner, mainly by residues in the N-terminal domain, and in a way
+              that induces local enrichment of anionic lipids and a local
+              curvature deformation. Furthermore, several alMGS variants
+              resulting from substitution of residues in the membrane anchoring
+              segment are still able to generate vesicles, regardless of
+              enzymatic activity. These results clarify earlier theories about
+              the driving forces for vesicle formation, and shed new light on
+              the membrane binding properties and enzymatic mechanism of alMGS
+              and related monotopic GT-B fold glycosyltransferases.",
+  journal  = "FEBS J.",
+  volume   =  281,
+  number   =  16,
+  pages    = "3667--3684",
+  month    =  aug,
+  year     =  2014,
+  keywords = "glycosyltransferase; lipid-protein interactions; membrane
+              deformation; molecular dynamics; monotopic protein",
+  language = "en"
+}
+
+@ARTICLE{Larsson2011-qe,
+  title    = "{Improved predictions by Pcons.net using multiple templates}",
+  author   = "Larsson, Per and Skwark, Marcin J and Wallner, Bj{\"o}rn and
+              Elofsson, Arne",
+  abstract = "UNLABELLED: Multiple templates can often be used to build more
+              accurate homology models than models built from a single
+              template. Here we introduce PconsM, an automated protocol that
+              uses multiple templates to build protein models. PconsM has been
+              among the top-performing methods in the recent CASP experiments
+              and consistently perform better than the single template models
+              used in Pcons.net. In particular for the easier targets with many
+              alternative templates with a high degree of sequence identity,
+              quality is readily improved with a few percentages over the
+              highest ranked model built on a single template. PconsM is
+              available as an additional pipeline within the Pcons.net protein
+              structure prediction server. AVAILABILITY AND IMPLEMENTATION:
+              PconsM is freely available from http://pcons.net/.",
+  journal  = "Bioinformatics",
+  volume   =  27,
+  number   =  3,
+  pages    = "426--427",
+  month    =  feb,
+  year     =  2011,
+  keywords = "Computational Biology,Models- Molecular,Proteins,Software",
+  language = "eng"
+}
+
+% The entry below contains non-ASCII chars that could not be converted
+% to a LaTeX equivalent.
+@ARTICLE{Zhang2017-om,
+  title     = "Epistasis Analysis Goes {Genome-Wide}",
+  author    = "Zhang, Jianzhi",
+  abstract  = "… 11. Skwark MJ, Croucher NJ, Puranen S, Chewapreecha C, Pesonen
+               M, et al. (2017) Interacting networks of resistance, virulence
+               and core machinery genes identified by genome-wide epistasis
+               analysis. PLoS Genet in press …",
+  journal   = "PLoS Genet.",
+  publisher = "journals.plos.org",
+  volume    =  13,
+  number    =  2,
+  pages     = "e1006558",
+  month     =  feb,
+  year      =  2017,
+  language  = "en"
+}
+
+@INCOLLECTION{Van_Dijl2017-wm,
+  title     = "Ins and Outs of the Bacillus subtilis Membrane Proteome",
+  booktitle = "Bacillus : Cellular and Molecular Biology (Third edition)",
+  author    = "van Dijl, Jan Maarten and Dreisbach, Annette and Skwark, Marcin
+               J and Sibbald, Mark J J B and Tjalsma, Harold and Zweers,
+               Jessica C and Buist, Girbe",
+  publisher = "Caister Academic Press",
+  year      =  2017
+}
+
+@ARTICLE{Bendz2013-mx,
+  title    = "Membrane protein shaving with thermolysin can be used to evaluate
+              topology predictors",
+  author   = "Bendz, Maria and Skwark, Marcin and Nilsson, Daniel and Granholm,
+              Viktor and Cristobal, Susana and K{\"a}ll, Lukas and Elofsson,
+              Arne",
+  abstract = "Topology analysis of membrane proteins can be obtained by
+              enzymatic shaving in combination with MS identification of
+              peptides. Ideally, such analysis could provide quite detailed
+              information about the membrane spanning regions. Here, we examine
+              the ability of some shaving enzymes to provide large-scale
+              analysis of membrane proteome topologies. To compare different
+              shaving enzymes, we first analyzed the detected peptides from two
+              over-expressed proteins. Second, we analyzed the peptides from
+              non-over-expressed Escherichia coli membrane proteins with known
+              structure to evaluate the shaving methods. Finally, the
+              identified peptides were used to test the accuracy of a number of
+              topology predictors. At the end we suggest that the usage of
+              thermolysin, an enzyme working at the natural pH of the cell for
+              membrane shaving, is superior because: (i) we detect a similar
+              number of peptides and proteins using thermolysin and trypsin;
+              (ii) thermolysin shaving can be run at a natural pH and (iii) the
+              incubation time is quite short. (iv) Fewer detected peptides from
+              thermolysin shaving originate from the transmembrane regions.
+              Using thermolysin shaving we can also provide a clear separation
+              between the best and the less accurate topology predictors,
+              indicating that using data from shaving can provide valuable
+              information when developing new topology predictors.",
+  journal  = "Proteomics",
+  volume   =  13,
+  number   =  9,
+  pages    = "1467--1480",
+  month    =  may,
+  year     =  2013,
+  language = "en"
+}
+
+@ARTICLE{Teixeira2017-yi,
+  title    = "Membrane protein contact and structure prediction using
+              co-evolution in conjunction with machine learning",
+  author   = "Teixeira, Pedro L and Mendenhall, Jeff L and Heinze, Sten and
+              Weiner, Brian and Skwark, Marcin J and Meiler, Jens",
+  abstract = "De novo membrane protein structure prediction is limited to small
+              proteins due to the conformational search space quickly expanding
+              with length. Long-range contacts (24+ amino acid
+              separation)-residue positions distant in sequence, but in close
+              proximity in the structure, are arguably the most effective way
+              to restrict this conformational space. Inverse methods for
+              co-evolutionary analysis predict a global set of position-pair
+              couplings that best explain the observed amino acid
+              co-occurrences, thus distinguishing between evolutionarily
+              explained co-variances and these arising from spurious transitive
+              effects. Here, we show that applying machine learning approaches
+              and custom descriptors improves evolutionary contact prediction
+              accuracy, resulting in improvement of average precision by 6
+              percentage points for the top 1L non-local contacts. Further, we
+              demonstrate that predicted contacts improve protein folding with
+              BCL::Fold. The mean RMSD100 metric for the top 10 models folded
+              was reduced by an average of 2 {\AA} for a benchmark of 25
+              membrane proteins.",
+  journal  = "PLoS One",
+  volume   =  12,
+  number   =  5,
+  pages    = "e0177866",
+  month    =  may,
+  year     =  2017,
+  language = "en"
+}
+
+@ARTICLE{Michel2017-wj,
+  title    = "Predicting accurate contacts in thousands of Pfam domain families
+              using {PconsC3}",
+  author   = "Michel, Mirco and Skwark, Marcin J and Men{\'e}ndez Hurtado,
+              David and Ekeberg, Magnus and Elofsson, Arne",
+  abstract = "Motivation: A few years ago it was shown that by using a maximum
+              entropy approach to describe couplings between columns in a
+              multiple sequence alignment it is possible to significantly
+              increase the accuracy of residue contact predictions. For very
+              large protein families with more than 1000 effective sequences
+              the accuracy is sufficient to produce accurate models of proteins
+              as well as complexes. Today, for about half of all Pfam domain
+              families no structure is known, but unfortunately most of these
+              families have at most a few hundred members, i.e. are too small
+              for such contact prediction methods. Results: To extend accurate
+              contact predictions to the thousands of smaller protein families
+              we present PconsC3, a fast and improved method for protein
+              contact predictions that can be used for families with even 100
+              effective sequence members. PconsC3 outperforms direct coupling
+              analysis (DCA) methods significantly independent on family size,
+              secondary structure content, contact range, or the number of
+              selected contacts. Availability and implementation: PconsC3 is
+              available as a web server and downloadable version at
+              http://c3.pcons.net . The downloadable version is free for all to
+              use and licensed under the GNU General Public License, version 2.
+              At this site contact predictions for most Pfam families are also
+              available. We do estimate that more than 4000 contact maps for
+              Pfam families of unknown structure have more than 50\% of the
+              top-ranked contacts predicted correctly. Contact:
+              arne@bioinfo.se. Supplementary information: Supplementary data
+              are available at Bioinformatics online.",
+  journal  = "Bioinformatics",
+  volume   =  33,
+  number   =  18,
+  pages    = "2859--2866",
+  month    =  sep,
+  year     =  2017,
+  language = "en"
+}
+
+@ARTICLE{Borza2017-aq,
+  title    = "Discoidin domain receptor 1 kinase activity is required for
+              regulating collagen {IV} synthesis",
+  author   = "Borza, Corina M and Su, Yan and Tran, Truc-Linh and Yu, Ling and
+              Steyns, Nick and Temple, Kayla J and Skwark, Marcin J and Meiler,
+              Jens and Lindsley, Craig W and Hicks, Brennan R and Leitinger,
+              Birgit and Zent, Roy and Pozzi, Ambra",
+  abstract = "Discoidin domain receptor 1 (DDR1) is a receptor tyrosine kinase
+              that binds to and is activated by collagens. DDR1 expression
+              increases following kidney injury and accumulating evidence
+              suggests that it contributes to the progression of injury. To
+              this end, deletion of DDR1 is beneficial in ameliorating kidney
+              injury induced by angiotensin infusion, unilateral ureteral
+              obstruction, or nephrotoxic nephritis. Most of the beneficial
+              effects observed in the DDR1-null mice are attributed to reduced
+              inflammatory cell infiltration to the site of injury, suggesting
+              that DDR1 plays a pro-inflammatory effect. The goal of this study
+              was to determine whether, in addition to its pro-inflammatory
+              effect, DDR1 plays a deleterious effect in kidney injury by
+              directly regulating extracellular matrix production. We show that
+              DDR1-null mice have reduced deposition of glomerular collagens I
+              and IV as well as decreased proteinuria following the partial
+              renal ablation model of kidney injury. Using mesangial cells
+              isolated from DDR1-null mice, we show that these cells produce
+              significantly less collagen compared to DDR1-null cells
+              reconstituted with wild type DDR1. Moreover, mutagenesis analysis
+              revealed that mutations in the collagen binding site or in the
+              kinase domain significantly reduce DDR1-mediated collagen
+              production. Finally, we provide evidence that blocking DDR1
+              kinase activity with an ATP-competitive small molecule inhibitor
+              reduces collagen production. In conclusion, our studies indicate
+              that the kinase activity of DDR1 plays a key role in DDR1-induced
+              collagen synthesis and suggest that blocking collagen-mediated
+              DDR1 activation may be beneficial in fibrotic diseases.",
+  journal  = "Matrix Biol.",
+  volume   = "57-58",
+  pages    = "258--271",
+  month    =  jan,
+  year     =  2017,
+  keywords = "Collagen receptors; Fibrosis; Kidney injury; Mesangial cells;
+              Partial renal ablation",
+  language = "en"
+}
+
